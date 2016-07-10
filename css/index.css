@@ -1,0 +1,366 @@
+div,ul,li,h1,h2,h3,h4,h5,h6,p,a,img{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Helvetica,sans-serif;
+	text-decoration: none;
+}
+@media screen and (min-width: 320px){
+	.shouji{
+		width: 320px;
+		height:auto;
+		margin: 0 auto;
+		border: 1px solid red;
+	}
+
+	/*banner*/
+
+	/*.banner{
+		width:100%;
+		height:155.555555px;
+		margin: 0 auto;
+		
+	}
+	.banner img{
+		width: 100%;
+		height:100%;
+	}*/
+	
+
+	.banner{
+		width:320px;
+		height:155.555555px;
+		margin:0 auto;
+		position: relative;
+	}
+	.box{		
+		width: 100%;
+		height: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+	.box a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.box img{
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.btn{
+		position: absolute;
+		left: 50%;
+		bottom:20px;
+		margin-left: -50px;
+		width:100px;
+		height: 10px;
+	}
+	.btn a{
+		float: left;
+		border-radius: 50%;
+		height: 5px;
+		width: 5px;
+		margin-right: 10px;
+		background:#666;
+	}
+	.btn .hot{
+		background: red!important;
+	}
+	.click{
+		height:70px;
+		width:740px;
+		position: absolute;
+		left: 0 ;
+		top: 50%;
+		margin-top: -20px;
+	}
+	.pre{
+		width:40px;
+		height:70px;
+		float: left;
+		cursor: pointer;
+	}
+	.next{
+		width:40px;
+		height:70px;
+		float: right;
+		cursor: pointer;
+	}
+	/*导航*/
+	.daohang{
+		width:100%;
+		height:150px;
+		margin: 0 auto;
+		border-bottom: 10px solid #F4F4F4;
+	}
+	.daohang-top{
+		width: 100%;
+		height:114px;
+	}
+	.daohang-box{
+		width:64px;
+		height:64px;		
+		float: left;
+	}
+	.daohang-box img{
+		width:40px;
+		height:40px;
+		margin:12px 12px 8px;
+	}
+	.daohang-box p{
+		font-size:16px;
+		text-align: center;
+		color: #747474;
+	}
+	.daohang-bottom{
+		width: 100%;
+		height: 20px;
+		margin: 15px 0;
+		display: inline;
+	}
+	.daohang-bottom p{
+		font-size: 16px;
+		font-weight: bold;
+		color: black;
+		display: inline;
+	} 
+	.daohang-bottom p span{
+		background: red;
+		color: white;
+	}
+	.daohang-bottom a{
+		color: #747474;
+		font-size: 14px;
+	}
+	.daohang-bottom a span{
+		color: red;
+	}
+    
+    /*掌上*/
+    .zhangshang{
+    	width: 100%;
+    	height: 190px;
+    }
+    .zhangshang-top{
+    	width: 300px;
+    	height: 20px;
+    	margin: 10px;
+    }
+    .zhangshang-top p:nth-child(1){
+		color: red;
+		display: inline;
+		font-size: 16px;
+    }
+    .zhangshang-top p:nth-child(2){
+		color: #747474;
+		display: inline;
+		margin-left: 10px;
+		font-size: 12px;
+    }
+    .zhangshang-top a{
+    	font-size: 13px;
+		color: #747474;
+		float: right;
+    }
+    .zhangshang-bottom{
+    	width: 100%;
+    	height: 140px;
+    	margin-top: 10px;
+    }
+    .zhangshang-box{
+    	width: 33.333333%;
+    	height: 100%;
+    	float: left;
+    	display: block;
+    }
+    .zhangshang-box img{
+    	width: 80px;
+    	height: auto;
+    	margin: 13px;
+    }
+    .zhangshang-box p:nth-of-type(1){
+    	color: #747474;
+    	font-size: 12px;
+    	text-align: center;
+    	line-height: 20px;
+    }
+    .zhangshang-box p:nth-of-type(2){
+    	color: red;
+    	font-size: 12px;
+    	text-align: center;
+    	line-height: 20px;
+    }
+    /*特价*/
+    .tejia{
+    	width: 100%;
+    	height: auto;
+    }
+    .tejia img{
+    	width: 100%;
+    	height: auto;
+    }
+    /*单品*/
+    .danpin{
+    	width: 100%;
+    	height: 830px;
+    }
+    .danpin-top{
+    	width: 100%;
+    	height: 30px;
+    	background: #F4F4F4;
+    }
+    .danpin-top p{
+    	font-size: 14px;
+    	color: #666;
+    	text-align: center;
+    	line-height: 30px;
+    }
+    .danpin-box{
+    	display: block;
+    	width: 50%;
+    	height:200px;
+    	float: left;
+    }
+    .danpin-box p{
+    	color: #747474;
+    	text-align: center;
+    	font-size: 12px;
+    	line-height: 20px;
+    }
+    .danpin-box p img{
+		margin-top: 10px;
+    	width:15px;
+    	height: 15px;
+    }
+    .danpin-img{
+    	width:120px;
+    	margin-left: 20px;
+    	height: auto;
+    }
+    .danpin-box p:last-child{
+		color: red;
+    }
+    /*新品*/
+    .xinpin{
+    	width: 100%;
+    	height: auto;
+    }
+    .xinpin-top{
+    	width: 100%;
+    	height: 30px;
+    	background: #F4F4F4;
+    }
+    .xinpin-top p{
+    	font-size: 14px;
+    	color: #666;
+    	text-align: center;
+    	line-height: 30px;
+    }
+    .xinpin-inner{
+    	width: 100%;
+    	height:248px;
+    	display: block;
+    	border-bottom: 10px solid #F4F4F4;
+    }
+    .xinpin-inner:last-child{
+    	border-bottom: none;
+    }
+    .xinpin-inner img{
+    	width: 100%;
+    	height: auto;
+    }
+    .xinpin-inner p:nth-child(2){
+    	font-size: 12px;
+    	line-height: 20px;
+		color: #747474;
+		margin-top:8px;
+		margin-left: 10px;
+    }
+    .xinpin-inner p:nth-child(3){
+    	font-size: 12px;
+    	line-height: 20px;
+		color: #A5A5A5;
+		margin-bottom:8px;
+		margin-left: 10px;
+    }
+    /*手机*/
+    .phone{
+    	width: 100%;
+    	height:810px;
+    }
+    .phone-top{
+    	width: 100%;
+    	height: auto;
+    	
+    }
+    .phone-top p{
+    	height: 30px;
+    	width: 100%;
+    	font-size: 12px;
+    	color: #666;
+    	text-align: center;
+    	line-height: 30px;
+    	background: #F4F4F4;
+    }
+    .phone-top img{
+    	width: 100%;
+    	height: auto;
+    }
+    .phone-box{
+    	width: 50%;
+    	height: auto;
+    	float: left;
+    }
+    .phone-box img{
+    	width: 120px;
+    	margin: 20px 20px 0;
+    }
+    .phone-box p:nth-child(2){
+    	font-size: 13px;
+    	color: #747474;
+    	margin-left: 10px;
+    	line-height: 20px;
+    }
+    .phone-box p:nth-child(3){
+    	font-size: 12px;
+    	color: #959595;
+    	margin-left: 10px;
+    	line-height: 20px;
+    }
+    .phone-box p:nth-child(4){
+    	font-size: 14px;
+    	color: red;
+    	margin-left: 10px;
+    	line-height: 20px;
+    }
+
+    /*底部*/
+    .bottom{
+    	width: 100%;
+    	height: auto;
+    }
+    .bottom-top{
+    	margin: 10px auto;
+    	width: 100%;
+    	height:70px;
+    }
+    .bottom-box{
+    	width: 33.333333%;
+    	height: 100%;
+    	float: left;
+    }
+    .bottom p{
+    	color: #747474;
+    	text-align: center;
+    	line-height: 30px;
+    	font-size: 8px;
+    }
+}
